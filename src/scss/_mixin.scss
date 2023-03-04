@@ -1,0 +1,11 @@
+@mixin map-outline {
+  position: absolute;
+  border-top: 2px solid red;
+  border-radius: 10px;
+}
+@mixin line-position($left, $top, $deg) {
+  position: absolute;
+  left: $left;
+  top: $top;
+  transform: rotate($deg);
+}

@@ -12,11 +12,9 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@": ["src"],
-      "@/*": ["src/*"],
-      "@components/*": ["src/components/*"]
+      "@/*": ["./*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
